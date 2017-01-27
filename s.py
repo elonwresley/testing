@@ -7,3 +7,4 @@ print "the script is:", script
 print "the first variable is:", first
 print "the second variable is:", second
 print "the third variable is:", third
+mainloop(10)
