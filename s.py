@@ -1,4 +1,5 @@
 import sys
+import time
 if len(sys.argv) != 4:
     print("Need three arguments after script name")
     sys.exit(1)
@@ -7,4 +8,4 @@ print "the script is:", script
 print "the first variable is:", first
 print "the second variable is:", second
 print "the third variable is:", third
-mainloop(10)
+time.sleep(10)
